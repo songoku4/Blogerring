@@ -1,13 +1,23 @@
 
+@import url('../css/fonts.css');
+
 html,body{
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
 }
+
+:root{
+    --text-gray:#3f4954;
+    --red_hue: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    --ComicNeue:'Comic_Neue';
+}
 /*Global_Classes*/
 
 a{
     text-decoration: none;
+
+    color:var(--text-gray);
 }
 
 .flex-row{
@@ -27,7 +37,7 @@ ul{
     background: white;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 40vh;
+    min-height: 10vh;
     overflow: hidden;
 }
 
@@ -44,16 +54,38 @@ ul{
     padding:1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
+    
 }
 
+.nav .nav-items .nav-link:hover{
+    background-color: #a6c0fe;
+}
 .nav .nav-brand a{
     font-size: 1.6rem;
     padding:1rem 0;
     display: block;
+    font-family: var(--ComicNeue);
+    font-size: 1.6rem;
 }
 
 .nav .social{
     padding: 1.4rem 0;
 }
+.nav .social i{
+    padding: 0 .2rem;
+}
+
+.nav .social:hover{
+    color: #421fdf;
+}
 
 /*Navigation End*/
+
+/*Viewport <750px*/
+@media only screen and (max-width:750px){
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+}
+
+/*Viewport <750px*/
