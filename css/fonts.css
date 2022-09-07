@@ -1,0 +1,14 @@
+@font-face {
+    font-family:Comic_Neue;
+    src: url(../fonts/Comic_Neue/ComicNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family:Fira_Sans;
+    src: url(../fonts/Fira_Sans/FiraSans-Italic.ttf);
+}
+
+@font-face {
+    font-family:Roboto_Condensed;
+    src: url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
