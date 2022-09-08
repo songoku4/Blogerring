@@ -12,6 +12,8 @@ html,body{
     --text-gray:#3f4954;
     --sky-blue: #6295ba;
     --red_hue: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    --rainy_ashville:linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    
     /*Font Variables*/
     --ComicNeue:'Comic_Neue';
     --Fira_Sans:'Fira_Sans';
