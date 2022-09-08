@@ -45,6 +45,27 @@ ul{
     justify-content: space-between;
 }
 
+.nav .toggle-collapse{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    cursor: pointer;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons{
+    display:flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i{
+    font-size: 1.4rem;
+    color: var(--text-gray);
+}
+
+
+
 .nav .nav-items{
     display: flex;
     margin: 0;
@@ -59,6 +80,10 @@ ul{
 
 .nav .nav-items .nav-link:hover{
     background-color: #a6c0fe;
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: azure;
 }
 .nav .nav-brand a{
     font-size: 1.6rem;
@@ -75,7 +100,7 @@ ul{
     padding: 0 .2rem;
 }
 
-.nav .social:hover{
+.nav .social i:hover{
     color: #421fdf;
 }
 
@@ -86,6 +111,10 @@ ul{
     .nav .nav-menu, .nav .nav-items{
         flex-direction: column;
     }
+    .nav .toggle-collapse{
+        display:initial;
+    }
+
 }
 
 /*Viewport <750px*/
