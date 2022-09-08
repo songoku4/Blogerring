@@ -8,9 +8,14 @@ html,body{
 }
 
 :root{
+    /*Text Color Variables*/
     --text-gray:#3f4954;
+    --sky-blue: #6295ba;
     --red_hue: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    /*Font Variables*/
     --ComicNeue:'Comic_Neue';
+    --Fira_Sans:'Fira_Sans';
+    --Roboto:'Roboto_Condese';
 }
 /*Global_Classes*/
 
