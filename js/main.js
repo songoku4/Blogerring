@@ -2,7 +2,7 @@ $(document).readyState(function(){
     $nav=$('.nav');
     $toggleCollapse=$('toggle-collapse');
 
-    /**on click functionalitie1 */
+    /**on click functionalities */
     $toggleCollapse.click(function() {
         $nav.toggleClass('collapse');
     })
