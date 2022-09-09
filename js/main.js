@@ -1,4 +1,4 @@
-$(document).readyState(function(){
+$(document).ready(function(){
     $nav=$('.nav');
     $toggleCollapse=$('toggle-collapse');
 
@@ -6,6 +6,8 @@ $(document).readyState(function(){
     $toggleCollapse.click(function() {
         $nav.toggleClass('collapse');
     })
+
+
 
 
 });

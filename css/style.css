@@ -13,7 +13,7 @@ html,body{
     --sky-blue: #6295ba;
     --red_hue: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
     --rainy_ashville:linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-    
+
     /*Font Variables*/
     --ComicNeue:'Comic_Neue';
     --Fira_Sans:'Fira_Sans';
@@ -46,6 +46,7 @@ ul{
     height: 0rem;
     min-height: 10vh;
     overflow: hidden;
+    transition: height 1s ease-in-out;
 }
 
 .nav .nav-menu{
@@ -70,7 +71,9 @@ ul{
     font-size: 1.4rem;
     color: var(--text-gray);
 }
-
+.collapse{
+    height:30rem;
+}
 
 
 .nav .nav-items{
@@ -112,6 +115,19 @@ ul{
 }
 
 /*Navigation End*/
+
+
+/*Main Body Content*/
+
+
+
+
+/*Body Ends*/
+
+
+
+
+
 
 /*Viewport <750px*/
 @media only screen and (max-width:750px){
